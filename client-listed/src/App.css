@@ -1,0 +1,100 @@
+.login-div {
+  width: 50%;
+  margin: auto;
+  margin-top: 20%;
+
+
+}
+
+.bg-div {
+  background-color: rgba(248, 248, 255, 0.76);
+}
+
+.bg-phone {
+  color: white;
+  background-color: black !important;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.input-box {
+
+  box-sizing: content-box;
+  width: 400px;
+  height: 40px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background-color: rgb(185, 185, 185);
+}
+
+.btn-cls {
+  box-sizing: border-box;
+  width: 400px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+ul li{
+  list-style: none;
+}
+.boardui{
+  height: 100vh;
+  background-color: black;
+  color: white;
+  line-height: 50px;
+  font-size: large;
+  border-radius: 20px;
+}
+.headerdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width:600px) {
+  .bg-phone {
+    width: 0%;
+    color: black;
+    visibility: hidden;
+
+
+  }
+
+  .login-div {
+    width: 65%;
+    margin: auto;
+    margin-top: 20%;
+  }
+
+  .btn-cls,
+  .input-box {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+@media screen and (max-width:910px) {
+
+  .btn-cls,
+  .input-box {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+@media screen and (max-width:1200px) {
+
+  .btn-cls,
+  .input-box {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+
+}
